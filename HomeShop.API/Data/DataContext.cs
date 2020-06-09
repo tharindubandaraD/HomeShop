@@ -11,5 +11,7 @@ namespace HomeShop.API.Data
         DbContextOptionsBuilder as its argument. It is then used to create the dbContextOptions*/
         public DataContext(DbContextOptions<DataContext> options) : base(options) {}
         public DbSet<Value> Values {get; set;}
+        
+       // public DbSet<User> Users {get; set;}
     }
 }
