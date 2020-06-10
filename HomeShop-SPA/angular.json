@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "HomeShop-SPA"
+    }
+  },
+  "defaultProject": "HomeShop-SPA",
+  "cli": {
+    "analytics": "1f6bb591-e4ef-454f-9dd6-a14b47759876"
+  }
 }
